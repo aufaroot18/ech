@@ -373,6 +373,15 @@ button:focus {
   text-transform: uppercase;
   margin-bottom: 15px;
 }
+.home_banner_area .banner_inner .banner_content h3 {
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Heebo", sans-serif;
+  line-height: 54px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
 .home_banner_area .banner_inner .banner_content p {
   font-family: "Roboto", sans-serif;
   max-width: 680px;
