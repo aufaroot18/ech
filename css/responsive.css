@@ -155,9 +155,15 @@ Responsive CSS
 	}
 	/* Footer Area css
 	============================================================================================ */
-	.footer-area .col-sm-6{
-		margin-bottom: 30px;
+	.footer-area .col-sm-12{
+		text-align: center;
+		margin-bottom: 30px;		
 	}
+
+	.footer-area .col-sm-12 .instafeed {
+		justify-content: center;
+	}
+
 	/* End End Footer Area css
 	============================================================================================ */
 	.header_area .navbar .tickets_btn {
