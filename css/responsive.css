@@ -46,9 +46,7 @@ Responsive CSS
         margin-bottom: 23px;
     }
 	.header_area .navbar {
-		background-image: -moz-linear-gradient( 0deg, rgb(20,29,162) 0%, rgb(155,92,246) 100%);
-		background-image: -webkit-linear-gradient( 0deg, rgb(20,29,162) 0%, rgb(155,92,246) 100%);
-		background-image: -ms-linear-gradient( 0deg, rgb(20,29,162) 0%, rgb(155,92,246) 100%);
+		background-image: linear-gradient(to right, #2c3e50 0%, #34495e 100%);
 	}
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
 		opacity: 1;
@@ -185,6 +183,9 @@ Responsive CSS
 	.team_item{
 		max-width: 263px;
 		margin: 0px auto 50px;
+	}
+	.price_area .price_inner {
+		width: 100%;
 	}
 }
 @media (max-width:767px){
