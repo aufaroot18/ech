@@ -1067,6 +1067,30 @@ button:focus {
 }
 /*================End: Maps Area=================*/
 
+/*================Begin: Gallery Area =================*/
+
+.single-gallery-image {
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  height: 195px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin-bottom: 5px;
+}
+
+.single-gallery-image:hover {
+  opacity: .8;
+}
+
+.row.gallery-item .col-md-6 {
+  padding: 0 5px;
+}
+
+/*================Begin: Gallery Area =================*/
+
 /*================Begin: Price Area=================*/
 .price_area {
   background: #fafcff;
