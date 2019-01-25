@@ -193,6 +193,10 @@ Responsive CSS
 	.price_area .price_inner {
 		width: 100%;
 	}
+
+	#venue .col-lg-5.map {
+		margin-bottom: 50px;
+	}
 }
 @media (max-width:767px){
 	.home_banner_area {
