@@ -920,9 +920,6 @@ button:focus {
 }
 
 .team_item:hover .team_name h4 {
-  /*background: -webkit-gradient(linear, left top, right top, from(#2c28b1), color-stop(70%, #9b5cf6));
-  background: -webkit-linear-gradient(left, #2c28b1 0%, #9b5cf6 70%);
-  background: -o-linear-gradient(left, #2c28b1 0%, #9b5cf6 70%);*/
   background: linear-gradient(to right, #2c3e50 0%, #34495e 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -930,18 +927,22 @@ button:focus {
 /*================End: Team Area=================*/
 
 /*================Begin: Event Schedule Area=================*/
-.event_schedule_inner .nav-tabs {
+
+.event_schedule_inner .card {
+  border: none;
+  padding-bottom: 5px;
+}
+
+.event_schedule_inner .card-header {
+  text-align: center;
   border: none;
   background-color: #2c3e50;
-  border-radius: 5px;
   overflow: hidden;
+  padding: 0;
 }
 
-.event_schedule_inner .nav-tabs li {
-  margin-bottom: 0px;
-}
-
-.event_schedule_inner .nav-tabs li a {
+.event_schedule_inner .card-header a {
+  display: block;
   border: none;
   background: transparent;
   text-decoration: none;
@@ -955,35 +956,32 @@ button:focus {
   text-transform: uppercase;
 }
 
-.event_schedule_inner .nav-tabs li a.active, .event_schedule_inner .nav-tabs li a:hover {
+.event_schedule_inner .card-header:hover {
+  transition: all 300ms linear 0s;
   background: #34495e;
   border: none;
   color: #fff;
 }
 
-.event_schedule_inner .tab-pane {
+.event_schedule_inner .card-body {
   background: #f9f9ff;
+  padding: 0;  
 }
 
-.event_schedule_inner .tab-pane .media {
-  padding: 30px;
+.event_schedule_inner .card-body .media {
+  padding: 15px 30px;
   margin: 0px;
-  -webkit-transition: all 300ms linear 0s;
-  -o-transition: all 300ms linear 0s;
+  border-bottom: 1px solid #ecf0f1;
   transition: all 300ms linear 0s;
 }
 
-.event_schedule_inner .tab-pane .media .d-flex {
-  padding-right: 25px;
-}
-
-.event_schedule_inner .tab-pane .media .media-body h5 {
+.event_schedule_inner .card-body .media .media-body h5 {
   font-size: 14px;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
 }
 
-.event_schedule_inner .tab-pane .media .media-body h4 {
+.event_schedule_inner .card-body .media .media-body h4 {
   font-size: 21px;
   font-family: "Heebo", sans-serif;
   font-weight: bold;
@@ -991,11 +989,15 @@ button:focus {
   text-transform: uppercase;
 }
 
-.event_schedule_inner .tab-pane .media .media-body p {
+.event_schedule_inner .card-body .media .media-body p {
   margin-bottom: 0px;
 }
 
-.event_schedule_inner .tab-pane .media:hover {
+.event_schedule_inner .card-body .media .media-body ul {
+  margin-bottom: 0px;
+}
+
+.event_schedule_inner .card-body .media:hover {
   background: #fff;
   -webkit-box-shadow: 0px 8px 30px 0px rgba(153, 153, 153, 0.1);
   box-shadow: 0px 8px 30px 0px rgba(153, 153, 153, 0.1);
@@ -1410,6 +1412,11 @@ html {
 
 .navbar-light .navbar-brand {
 	padding-top: 0;
+}
+
+sup {
+  font-size: 0.6em;
+  text-transform: lowercase;
 }
 
 /*================End: Own Defining=================*/
