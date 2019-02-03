@@ -1009,6 +1009,12 @@ button:focus {
   position: relative;
 }
 
+.home_map_area .map iframe {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 .home_map_area .mapBox2 {
   min-height: 600px;
 }
@@ -1087,7 +1093,7 @@ button:focus {
   opacity: .8;
 }
 
-.row.gallery-item .col-md-6 {
+.row.gallery-item .col-lg-6 {
   padding: 0 5px;
 }
 
