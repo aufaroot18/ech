@@ -155,6 +155,10 @@ button:focus {
   display: none;
 }
 
+.header_area .navbar .nav .nav-item .search {
+  visibility: hidden;
+}
+
 .header_area .navbar .nav .nav-item.submenu {
   position: relative;
 }
