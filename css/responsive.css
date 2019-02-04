@@ -248,6 +248,22 @@ Responsive CSS
 	}
 	/* End End Footer Area css
 	============================================================================================ */	
+
+	/*Price Area*/
+	.price_item .price_text h3 {
+	  font-size: 1em;
+	}
+
+	.price_item .price_text h5 {
+	  font-size: 0.7em;
+	}
+
+	.price_item .price_text h2 {
+	  font-size: 1.4em;
+	}
+	.price_item .price_text .list li {
+	  font-size: 0.6em;
+	}
 }
 @media (max-width:600px){
 	
